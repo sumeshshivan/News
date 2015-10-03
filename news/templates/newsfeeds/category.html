@@ -1,0 +1,17 @@
+{% load static %}
+
+	{% if news_list %}
+	<ul>
+	{% for newsfeed in news_list %}
+		<li><a href="">{{ newsfeed.title }}</a>
+		<p>{{ newsfeed.story }}</p>
+		<!-- <img src="{{MEDIA_URL}}{{ newsfeed.photo }}"/> -->
+		{% if newsfeed.photo %}
+			<img src="{{ newsfeed.photo_thumbnail.url }}"/>
+		{% endif %}
+		</li>
+	{% endfor %}
+	</ul>
+	{% else %}
+	<p>No news are available.</p>
+	{% endif %}

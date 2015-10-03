@@ -1,0 +1,112 @@
+
+
+html, body
+{ 
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
+
+ul.nav.navbar-nav>li>a:hover {
+	color: #FFF;
+}
+
+ul.nav.navbar-nav>li:hover {
+	background: rgb(66, 139, 202);
+}
+
+#name {
+	color: rgb(43, 168, 125);
+}
+
+.form-group>p {
+	display: none;
+}
+
+.modal-body {
+	padding: 20px 40px 40px;
+}
+
+.col-xs-6>h3 {
+	color: rgb(66, 139, 202);
+	text-align: center;
+}
+
+#login {
+	width: 150px;
+}
+
+#logout {
+	width: 150px;
+}
+
+.navbar-default {
+background-color: rgba(248, 248, 248, 0.83);
+border-color: #D0D0D0;
+}
+
+#logoutconfirm {
+width: 250px;
+margin: 200px auto;
+}
+
+#loginmodal {
+margin: 100px auto;
+}
+
+nav.navbar {
+box-shadow: 0px 2px 10px .1px rgba(153, 153, 153, 0.66);
+}
+
+#profile-picture-upload {
+width: 400px;
+margin: 100px auto auto;
+}
+
+nav.navbar {
+margin: 10px;
+}
+
+.container.container-fluid {
+width: 100%;
+}
+
+#map_controller > table > tbody > tr > td > img {
+padding: 2px;
+}
+
+#output {
+padding: 0px 100px;
+}
+
+#user_info {
+padding: 10px;
+box-shadow: 0px 2px 10px .1px rgba(153, 153, 153, 0.66);
+background: white;
+position: fixed;
+top: 70px;
+right: 10px;
+z-index: 0;
+opacity: 0.7;
+}
+
+body { 
+	margin:0; padding:0; 
+}
+		
+#map { 
+	position:absolute; top:0; bottom:0; width:100%; 
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+	margin-top: 200px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    margin: 10px;
+}
+
+.alert.alert-success {
+    margin: 70px;
+}

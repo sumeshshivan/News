@@ -1,0 +1,11 @@
+{% load static %}
+
+	{% if newsfeed %}
+		<li><a href="">{{ newsfeed.title }}</a>
+		<p>{{ newsfeed.story }}</p>
+		<!-- <img src="{{MEDIA_URL}}{{ newsfeed.photo }}"/> -->
+		{% if newsfeed.photo %}
+			<img src="{{ newsfeed.photo.url }}"/>
+		{% endif %}
+		</li>
+	{% endif %}
